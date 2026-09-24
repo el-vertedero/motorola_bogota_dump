@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <!-- The feature "com.motorola.freeform" will be unavailable if "ro.config.moto_mid_ram" is "true" -->
+    <unavailable-feature-conditional name="com.motorola.freeform" prop="ro.config.moto_mid_ram" value="true"/>
+</permissions>
