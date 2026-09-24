@@ -1,0 +1,14 @@
+# user 16 W1VOS36.88-71-6-2-1-4 f2d68 release-keys
+- manufacturer: motorola
+- platform: common
+- codename: bogota
+- flavor: user
+- release: 16
+- id: W1VOS36.88-71-6-2-1-4
+- incremental: f2d68
+- tags: release-keys
+- fingerprint: motorola/bogota_g_hal/bogota:16/W1VOS36.88-71-6-2-1-4/f2d68:user/release-keys
+- is_ab: true
+- brand: motorola
+- branch: user-16-W1VOS36.88-71-6-2-1-4-f2d68-release-keys
+- repo: motorola_bogota_dump

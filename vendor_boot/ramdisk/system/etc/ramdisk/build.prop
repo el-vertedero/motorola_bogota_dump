@@ -1,0 +1,22 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.bootimage.brand=motorola
+ro.product.bootimage.device=bogota
+ro.product.bootimage.manufacturer=motorola
+ro.product.bootimage.model=moto g73 5G
+ro.product.bootimage.name=bogota_g_vext
+ro.bootimage.build.date=Thu Aug 27 08:44:24 CDT 2026
+ro.bootimage.build.date.utc=1787838264
+ro.bootimage.build.fingerprint=motorola/bogota_g_vext/bogota:16/W1VOS36.88-71-6-2-1-4/f2d68:user/release-keys
+ro.bootimage.build.id=W1VOS36.88-71-6-2-1-4
+ro.bootimage.build.tags=release-keys
+ro.bootimage.build.type=user
+ro.bootimage.build.version.incremental=f2d68
+ro.bootimage.build.version.release=16
+ro.bootimage.build.version.release_or_codename=16
+ro.bootimage.build.version.sdk=36
+ro.bootimage.build.version.sdk_full=36.0
+# end of file
+
