@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="com.aura.oobe.vodafone" default_action="disable">
+        <criteria action="disable" prop="ro.product.name.canonical" prop_value="vienna"/>
+        <criteria action="enable" channel="vfeu" mccmnc="23415"/>
+        <criteria action="enable" channel="vfeu" mccmnc="21401"/>
+        <criteria action="enable" channel="vfeu" mccmnc="26202"/>
+        <criteria action="enable" channel="vfeu" mccmnc="26204"/>
+        <criteria action="enable" channel="vfeu" mccmnc="20205"/>
+        <criteria action="enable" channel="vfeu" mccmnc="26801"/>
+        <criteria action="enable" channel="vfeu" mccmnc="26889"/>
+        <criteria action="enable" channel="vfeu" mccmnc="23003"/>
+        <criteria action="enable" channel="vfeu" mccmnc="22601"/>
+        <criteria action="enable" channel="vfeu" mccmnc="26209"/>
+    </package-disable-enable-criteria>
+</enable-disable-package>

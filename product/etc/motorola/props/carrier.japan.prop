@@ -1,0 +1,6 @@
+ro.mot.uxcore.enable=true
+ro.mot.actioncore.enable=true
+ro.mot.journal.enable=true
+ro.product.region=japan
+ro.mot.enable_search_selector=true
+ro.mot.enable_jp_msca_choice_screen=true
