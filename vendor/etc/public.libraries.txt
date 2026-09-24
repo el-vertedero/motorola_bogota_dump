@@ -1,0 +1,11 @@
+libmotoispaidlclient.so
+libOpenCL.so
+libportrait_repair_ppl3_ocl.so
+libmpbase.so
+libsdk_sr.so
+libarcsoft_portrait_distortion_correction.so
+libanc_sn.so
+libanc_sn_adapter_front_main.so
+libanc_sn_adapter_rear_main.so
+libanc_sn_adapter_rear_uw.so
+libneuron_runtime.5.so

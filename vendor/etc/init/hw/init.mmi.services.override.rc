@@ -1,0 +1,28 @@
+service emdlogger /system/system_ext/bin/emdlogger
+    class main
+    user shell
+    group log system shell radio sdcard_rw inet sdcard_r media_rw
+    task_profiles HighEnergySaving ProcessCapacityLow TimerSlackHigh
+    override
+
+service connsyslogger /system_ext/bin/connsyslogger
+    class main
+    user shell
+    group log system shell radio sdcard_rw inet sdcard_r media_rw bluetooth gps wifi
+    task_profiles HighEnergySaving ProcessCapacityLow TimerSlackHigh
+    override
+    disabled
+
+service mobile_log_d /system_ext/bin/mobile_log_d
+    task_profiles HighEnergySaving ProcessCapacityLow TimerSlackHigh
+    override
+    class main
+
+service vendor.batt_health /vendor/bin/batt_health
+    class late_start
+    user vendor_pwric
+    group vendor_pwric cache net_admin log system
+    task_profiles HighEnergySaving ProcessCapacityLow LowIoPriority TimerSlackHigh
+    override
+    disabled
+

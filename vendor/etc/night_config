@@ -1,0 +1,64 @@
+{
+  //                   back      |   front
+  "imagers" :     [ "mot_bogota_imx882_mipi_raw",  "mot_bogota_gc32e1_mipi_raw"],
+  "camera-type" : [ "back-main",   "front-main"],
+  "mfnr-night" : {
+    "enable":                     [ true,       true ],
+    "params-dynamic" : [
+         { // default
+           "lux-upper" :          [ 20.0,       20.0 ],
+           "lux-lower" :          [ 0.0,        0.0  ],
+           "normal-ev" :          [ 0,          0    ],
+           "ev-exp-time" :        [ 0,          0    ]
+         },
+         { // 1st
+           "lux-upper" :          [ 0.3,        0.3  ],
+           "lux-lower" :          [ 0,          0    ],
+           "normal-ev" :          [ 5,          5    ],
+           "ev-exp-time" :        [ 200,        125  ]
+         },
+         { // 2nd
+          "lux-upper" :           [ 0.5,        0.5  ],
+          "lux-lower" :           [ 0.3,        0.3  ],
+          "normal-ev" :           [ 5,          5    ],
+          "ev-exp-time" :         [ 200,        125  ]
+         },
+         { // 3rd
+           "lux-upper" :          [ 3.0,        3.0  ],
+           "lux-lower" :          [ 0.5,        0.5  ],
+           "normal-ev" :          [ 4,          4    ],
+           "ev-exp-time" :        [ 140,        200  ]
+         },
+         { // 4th
+           "lux-upper" :          [ 7.0,        7.0  ],
+           "lux-lower" :          [ 3.0,        3.0  ],
+           "normal-ev" :          [ 3,          3    ],
+           "ev-exp-time" :        [ 120,        86   ]
+         },
+         { // 5th
+           "lux-upper" :          [ 15.0,       15.0 ],
+           "lux-lower" :          [ 7.0,        7.0  ],
+           "normal-ev" :          [ 2,          2    ],
+           "ev-exp-time" :        [ 100,        66   ]
+         },
+         { // 6th
+           "lux-upper" :          [ 20.0,      20.0  ],
+           "lux-lower" :          [ 15.0,      15.0  ],
+           "normal-ev" :          [ 1,         1     ],
+           "ev-exp-time" :        [ 83,        50    ]
+         }
+   ],
+    "lux-idx-to-std-params" : [
+      {
+        "sensor-name" : "mot_bogota_imx882_mipi_raw", // Back main
+        "aCoefficient": -31.49,
+        "bCoefficient": 436.02
+      },
+      {
+        "sensor-name" : "mot_bogota_gc32e1_mipi_raw", // Front main
+        "aCoefficient": -31.39,
+        "bCoefficient": 442.02
+      }
+    ]
+  }
+}

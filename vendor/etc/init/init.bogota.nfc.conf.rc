@@ -1,0 +1,26 @@
+on property:ro.vendor.hw.radio=BRLA
+   setprop persist.vendor.nfc.config_file_name libnfc-nxp-SN220E.conf
+
+on property:ro.vendor.hw.radio=APEU && property:vendor.nfc.chipid=0xc1
+   setprop persist.vendor.nfc.config_file_name libnfc-nxp-SN220E.conf
+
+on property:ro.vendor.hw.radio=APEU && property:vendor.nfc.chipid=0xca
+   setprop persist.vendor.nfc.config_file_name libnfc-nxp-PN560.conf
+
+on property:ro.vendor.hw.radio=PRC
+   setprop persist.vendor.nfc.config_file_name libnfc-nxp-SN220T.conf
+
+on property:ro.vendor.hw.radio=JAPAN
+   setprop persist.vendor.nfc.config_file_name libnfc-nxp-SN220P.conf
+
+on property:ro.vendor.hw.radio=INDIA
+   setprop persist.vendor.nfc.config_file_name libnfc-nxp-PN560.conf
+
+on property:ro.vendor.hw.radio=EU && property:vendor.nfc.chipid=0xc1
+   setprop persist.vendor.nfc.config_file_name libnfc-nxp-SN220E.conf
+
+on property:ro.vendor.hw.radio=EU && property:vendor.nfc.chipid=0xca
+   setprop persist.vendor.nfc.config_file_name libnfc-nxp-PN560.conf
+
+on property:ro.vendor.hw.radio=BRLA2
+   setprop persist.vendor.nfc.config_file_name libnfc-nxp-SN220E.conf
